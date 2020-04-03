@@ -1,0 +1,6 @@
+<h3>These are the dogs</h3>
+
+<% @dogs.each do |dog|%>
+    <%= link_to dog.name, dog%>
+    <br>
+<% end %>

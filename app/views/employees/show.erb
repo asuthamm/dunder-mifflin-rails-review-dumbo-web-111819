@@ -1,0 +1,10 @@
+<h1>This is an employee </h1>
+<%= link_to "Edit Employee", "/employees/#{@employee.id}/edit"%>
+<br>
+<%= "First Name: " + @employee.first_name%> <br>
+<%= "Last Name: " + @employee.last_name%> <br>
+<%= "Alias: " + @employee.alias%> <br>
+<%= "Title: " + @employee.title%><br>
+<%= "Office: " +@employee.office%><br>
+<%= "Dog Name: " + @employee.dog.name%><br>
+<img src= <%= @employee.img_url%>>
